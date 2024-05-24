@@ -1,40 +1,127 @@
-// Get http://localhost:8080/ HTTP/1.1
+Get http://localhost:8080/ HTTP/1.1
 
 ###
-// Get http://localhost:8080/_ HTTP/1.1
+Get http://localhost:8080/664f6c7d3af411c36509885c HTTP/1.1
 
 ###
-// Get https://_.onrender.com HTTP/1.1
+Get http://localhost:8080/664f6c493af411c36508944c HTTP/1.1
 
 ###
-// Get https://_.onrender.com/_ HTTP/1.1
+Get https://cse341-class-project-wuch.onrender.com HTTP/1.1
 
 ###
-// Post http://localhost:8080/ HTTP/1.1
-// Content-Type: application/json
-
-// {}
+Get https://cse341-class-project-wuch.onrender.com/664f6c7d3af411c36509885c HTTP/1.1
 
 ###
-// Put http://localhost:8080/_ HTTP/1.1
-// Content-Type: application/json
-
-// {}
+Get https://cse341-class-project-wuch.onrender.com/664f6c493af411c36508944c HTTP/1.1
 
 ###
-// Delete http://localhost:8080/_ HTTP/1.1
+Post http://localhost:8080/ HTTP/1.1
+Content-Type: application/json
+
+{
+    "title": "Harry Potter and the Deathly Hallows: Part 1",
+    "director": "David Yates",
+    "musicComposer": "Alexandre Desplat",
+    "distributionCompany": "Warner Bros. Pictures",
+    "USreleaseDate": "2010-11-19",
+    "runningTime": "146 minutes",
+    "audienceRating": "PG-13"
+}
 
 ###
-// Post http://_.onrender.com/ HTTP/1.1
-// Content-Type: application/json
+Post http://localhost:8080/ HTTP/1.1
+Content-Type: application/json
 
-// {}
+{
+    "title": "Dragonwatch",
+    "series": "Dragonwatch",
+    "genre": "Fantasy",
+    "publicationDate": "2017-03-14"
+}
 
 ###
-// Put http://_.onrender.com/_ HTTP/1.1
-// Content-Type: application/json
+Put http://localhost:8080/664f6c7d3af411c36509885c HTTP/1.1
+Content-Type: application/json
 
-// {}
+{
+    "title": "Harry Potter and the Deathly Hallows: Part 1",
+    "director": "David Yates",
+    "musicComposer": "Alexandre Desplat",
+    "distributionCompany": "Warner Bros. Pictures",
+    "USreleaseDate": "2010-11-19",
+    "runningTime": "144 minutes",
+    "audienceRating": "PG-13"
+}
 
 ###
-// Delete http://_.onrender.com/_ HTTP/1.1
+Put http://localhost:8080/664f6c493af411c36508944c HTTP/1.1
+Content-Type: application/json
+
+{
+    "title": "Dragonwatch: A Fablehaven Adventure",
+    "series": "Dragonwatch",
+    "genre": "Fantasy",
+    "publicationDate": "2017-03-14"
+}
+
+###
+Delete http://localhost:8080/664f6c7d3af411c36509885c HTTP/1.1
+
+###
+Delete http://localhost:8080/664f6c493af411c36508944c HTTP/1.1
+
+###
+Post https://cse341-class-project-wuch.onrender.com/ HTTP/1.1
+Content-Type: application/json
+
+{
+    "title": "Harry Potter and the Deathly Hallows: Part 1",
+    "director": "David Yates",
+    "musicComposer": "Alexandre Desplat",
+    "distributionCompany": "Warner Bros. Pictures",
+    "USreleaseDate": "2010-11-19",
+    "runningTime": "146 minutes",
+    "audienceRating": "PG-13"
+}
+
+Post https://cse341-class-project-wuch.onrender.com/ HTTP/1.1
+Content-Type: application/json
+
+{
+    "title": "Dragonwatch",
+    "series": "Dragonwatch",
+    "genre": "Fantasy",
+    "publicationDate": "2017-03-14"
+}
+
+###
+Put https://cse341-class-project-wuch.onrender.com/664f6c7d3af411c36509885c HTTP/1.1
+Content-Type: application/json
+
+{
+    "title": "Harry Potter and the Deathly Hallows: Part 1",
+    "director": "David Yates",
+    "musicComposer": "Alexandre Desplat",
+    "distributionCompany": "Warner Bros. Pictures",
+    "USreleaseDate": "2010-11-19",
+    "runningTime": "144 minutes",
+    "audienceRating": "PG-13"
+}
+
+###
+Put https://cse341-class-project-wuch.onrender.com/664f6c493af411c36508944c HTTP/1.1
+Content-Type: application/json
+
+{
+    "title": "Dragonwatch: A Fablehaven Adventure",
+    "series": "Dragonwatch",
+    "genre": "Fantasy",
+    "publicationDate": "2017-03-14"
+}
+
+###
+Delete https://cse341-class-project-wuch.onrender.com/664f6c7d3af411c36509885c HTTP/1.1
+
+###
+Delete https://cse341-class-project-wuch.onrender.com/664f6c493af411c36508944c HTTP/1.1
