@@ -6,7 +6,7 @@ const doc = {
     description: 'API',
   },
   // change to render link
-  host: 'cse341-class-project-wuch.onrender.com/',
+  host: 'cse341-class-project-wuch.onrender.com',
   // change to https
   schemes: ['https'],
 };
