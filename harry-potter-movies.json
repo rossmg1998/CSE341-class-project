@@ -1,0 +1,74 @@
+[
+    {
+        "title": "Harry Potter and the Sorcerer's Stone",
+        "director": "Chris Columbus",
+        "musicComposer": "John Williams",
+        "distributionCompany": "Warner Bros. Pictures",
+        "USreleaseDate": "2001-11-16",
+        "runningTime": "152 minutes",
+        "audienceRating": "PG"
+    },
+    {
+        "title": "Harry Potter and the Chamber of Secrets",
+        "director": "Chris Columbus",
+        "musicComposer": "John Williams",
+        "distributionCompany": "Warner Bros. Pictures",
+        "USreleaseDate": "2002-11-15",
+        "runningTime": "161 minutes",
+        "audienceRating": "PG"
+    },
+    {
+        "title": "Harry Potter and the Prisoner of Azkaban",
+        "director": "Alfonso Cuaron",
+        "musicComposer": "John Williams",
+        "distributionCompany": "Warner Bros. Pictures",
+        "USreleaseDate": "2004-06-04",
+        "runningTime": "142 minutes",
+        "audienceRating": "PG"
+    },
+    {
+        "title": "Harry Potter and the Goblet of Fire",
+        "director": "Mike Newell",
+        "musicComposer": "Patrick Doyle",
+        "distributionCompany": "Warner Bros. Pictures",
+        "USreleaseDate": "2005-11-18",
+        "runningTime": "157 minutes",
+        "audienceRating": "PG-13"
+    },
+    {
+        "title": "Harry Potter and the Order of the Phoenix",
+        "director": "David Yates",
+        "musicComposer": "Nicholas Hooper",
+        "distributionCompany": "Warner Bros. Pictures",
+        "USreleaseDate": "2007-07-11",
+        "runningTime": "139 minutes",
+        "audienceRating": "PG-13"
+    },
+    {
+        "title": "Harry Potter and the Half-Blood Prince",
+        "director": "David Yates",
+        "musicComposer": "Nicholas Hooper",
+        "distributionCompany": "Warner Bros. Pictures",
+        "USreleaseDate": "2009-07-15",
+        "runningTime": "153 minutes",
+        "audienceRating": "PG"
+    },
+    {
+        "title": "Harry Potter and the Deathly Hallows: Part 1",
+        "director": "David Yates",
+        "musicComposer": "Alexandre Desplat",
+        "distributionCompany": "Warner Bros. Pictures",
+        "USreleaseDate": "2010-11-19",
+        "runningTime": "146 minutes",
+        "audienceRating": "PG-13"
+    },
+    {
+        "title": "Harry Potter and the Deathly Hallows: Part 2",
+        "director": "David Yates",
+        "musicComposer": "Alexandre Desplat",
+        "distributionCompany": "Warner Bros. Pictures",
+        "USreleaseDate": "2011-07-15",
+        "runningTime": "130 minutes",
+        "audienceRating": "PG-13"
+    }
+]

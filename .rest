@@ -1,0 +1,40 @@
+// Get http://localhost:8080/ HTTP/1.1
+
+###
+// Get http://localhost:8080/_ HTTP/1.1
+
+###
+// Get https://_.onrender.com HTTP/1.1
+
+###
+// Get https://_.onrender.com/_ HTTP/1.1
+
+###
+// Post http://localhost:8080/ HTTP/1.1
+// Content-Type: application/json
+
+// {}
+
+###
+// Put http://localhost:8080/_ HTTP/1.1
+// Content-Type: application/json
+
+// {}
+
+###
+// Delete http://localhost:8080/_ HTTP/1.1
+
+###
+// Post http://_.onrender.com/ HTTP/1.1
+// Content-Type: application/json
+
+// {}
+
+###
+// Put http://_.onrender.com/_ HTTP/1.1
+// Content-Type: application/json
+
+// {}
+
+###
+// Delete http://_.onrender.com/_ HTTP/1.1
