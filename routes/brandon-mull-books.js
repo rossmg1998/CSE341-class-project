@@ -1,5 +1,5 @@
 const router = require("express").Router();
-
+const { requiresAuth } = require('express-openid-connect');
 const booksController = require("../controllers/brandon-mull-books")
 const validation = require('../middleware/brandon-mull-books');
 
@@ -13,6 +13,6 @@ router.post("/brandon_mull_books", validation.saveBook, booksController.createBo
 
 router.put("/brandon_mull_books/:id", validation.saveBook, booksController.updateBook);
 
-router.delete("/brandon_mull_books/:id", booksController.deleteBook);
+router.delete("/brandon_mull_books/:id", requiresAuth(), booksController.deleteBook);
 
 module.exports = router;

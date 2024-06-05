@@ -25,22 +25,6 @@ router.get('/profile', requiresAuth(), (req, res) => {
     res.send(JSON.stringify(req.oidc.user));
 });
 
-// router.use(
-//     auth({
-//       authRequired: false,
-//     })
-// );
-  
-// // Anyone can access the homepage
-// router.get('/', (req, res) => {
-//     res.send('<a href="/admin">Admin Section</a>');
-// });
-  
-// // requiresAuth checks authentication.
-// router.get('/admin', requiresAuth(), (req, res) =>
-//     res.send(`Hello ${req.oidc.user.sub}, this is the admin section.`)
-// );
-
 router.use('/brandon-mull-books.js', require('./brandon-mull-books.js'));
 router.use('/harry-potter-movies.js', require('./harry-potter-movies.js'));
 

@@ -1,5 +1,5 @@
 const router = require("express").Router();
-
+const { requiresAuth } = require('express-openid-connect');
 const moviesController = require("../controllers/harry-potter-movies")
 const validation = require('../middleware/harry-potter-movies');
 
@@ -13,6 +13,6 @@ router.post("/harry_potter_movies", validation.saveMovie, moviesController.creat
 
 router.put("/harry_potter_movies/:id", validation.saveMovie, moviesController.updateMovie);
 
-router.delete("/harry_potter_movies/:id", moviesController.deleteMovie);
+router.delete("/harry_potter_movies/:id", requiresAuth(), moviesController.deleteMovie);
 
 module.exports = router;
