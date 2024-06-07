@@ -8,7 +8,7 @@ const config = {
   authRequired: false,
   auth0Logout: true,
   secret: 'a long, randomly-generated string stored in env',
-  baseURL: 'https://cse341-class-project-wuch.onrender.com',
+  baseURL: 'https://cse341-class-project-wuch.onrender.com/',
   clientID: 'graTqX2Ax6vCXsvgh9hsRZxuWHUurwyx',
   issuerBaseURL: 'https://dev-klued22kjv2w11nk.us.auth0.com'
 };
